@@ -1,0 +1,92 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "date": "Australia/Sydney",
+
+                    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/cf/69/07/sydney-harbour.jpg?w=900&h=500&s=1",
+                    "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "date": "Australia/Melbourne",
+                    
+                    "imageUrl": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200/https://www.godsavethepoints.com/wp-content/uploads/2017/10/Amazing_City_View_of_Melbourne_Australia_HD_Photos-1200x675.jpg",
+                    "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "date": "Asia/Tokyo",
+                    "imageUrl": "https://media.nomadicmatt.com/2024/tokyothings.jpeg",
+                    "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "date": "Asia/Tokyo",
+                    "imageUrl": "https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?crop=true&width=1020&height=498",
+                    "description": "Known for its historic temples, gardens, and traditional tea houses."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "date":"America/Sao_Paulo",
+                    "imageUrl": "https://www.g20.org/es/acerca-del-g20/ciudades-sede/rio-de-janeiro-rj/@@images/image-1600-f790d1d927567e6d25e4938b58a2df5a.jpeg",
+                    "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+                },
+                {
+                    "name": "São Paulo, Brazil",
+                    "date":"America/Sao_Paulo",
+                    "imageUrl": "https://cdn.getyourguide.com/img/tour/5c8ac23807cd7.jpeg/98.jpg",
+                    "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+                }
+            ]
+        }
+    ],
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "date":"Asia/Phnom_Penh",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1920px-Angkor_Wat.jpg",
+            "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+        },
+        {
+            "id": 2,
+            "name": "Taj Mahal, India",
+            "date":"Asia/Kolkata",
+            "imageUrl": "https://cdn.culturagenial.com/es/imagenes/2915110-taj-mahal-1000-1464523250-cke.jpg?class=article",
+            "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "date":"Pacific/Tahiti",
+            "imageUrl": "https://bora-bora-insider.com/wp-content/uploads/2023/04/Matira-Beach-Sunset-728x546.jpg",
+            "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "date":"America/Sao_Paulo",
+            "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/9d/72/c1/img-20170909-105901-526.jpg?w=900&h=-1&s=1",
+            "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+        }
+    ]
+}
