@@ -35,7 +35,6 @@ clearSearch.addEventListener("click", clearRecommendations)
 async function recommendations(){
     try {
         const response = await fetch("./travel_recommendations.json",{method:"GET"})
-        console.log(response)
         if(response.ok){
             retrievedData = await response.json()
         }
@@ -176,7 +175,6 @@ bookbtn.addEventListener("click", () => {
 
 socialMediaIcons.forEach(element => {
     element.addEventListener("mouseover", (e) => {
-        console.log(e.target.id)
         decoLine.classList.remove(...decoLine.classList)
         decoLine.classList.add(e.target.id)
     })
